@@ -1,8 +1,10 @@
 package newPackTwo;
 public class javaClassTwo {
     int integer;
+
     float f1;
     int A;
+
 
     public javaClassTwo(int integer, float str) {
         this.integer = integer;
@@ -13,6 +15,7 @@ public class javaClassTwo {
         return integer;
     }
 
+
     public int getA() {
         return A;
     }
@@ -21,15 +24,16 @@ public class javaClassTwo {
         A = a;
     }
 
+
     public void setInteger(int integer) {
         this.integer = integer;
     }
 
-    public float getStr() {
-        return Str;
+    public String getS2() {
+        return S2;
     }
 
-    public void setStr(String str) {
-        Str = str;
+    public void setS2(String s2) {
+        S2 = s2;
     }
 }
