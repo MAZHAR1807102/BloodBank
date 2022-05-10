@@ -2,7 +2,7 @@ package newPackTwo;
 public class javaClassTwo {
     int integer;
     float f1;
-    String S1;
+    int A;
 
     public javaClassTwo(int integer, float str) {
         this.integer = integer;
@@ -13,12 +13,12 @@ public class javaClassTwo {
         return integer;
     }
 
-    public String getS1() {
-        return S1;
+    public int getA() {
+        return A;
     }
 
-    public void setS1(String s1) {
-        S1 = s1;
+    public void setA(int a) {
+        A = a;
     }
 
     public void setInteger(int integer) {
